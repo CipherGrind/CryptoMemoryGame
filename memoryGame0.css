@@ -1,0 +1,22 @@
+body{
+    animation: body 20s infinite;
+}
+@keyframes body {
+    0% {
+        background-color: rgba(0, 0, 0, 0.495);
+        background-blend-mode: hue;
+        background-image: repeating-radial-gradient(black, rgb(0, 30, 30), black);
+    }
+
+    50% {
+        background-color: rgba(0, 40, 40, 0.495);
+        background-blend-mode: hue;
+        background-image: repeating-radial-gradient(black, rgb(0, 30, 30), black);
+    }
+
+    100% {
+        background-color: rgba(0, 0, 0, 0.495);
+        background-blend-mode: hue;
+        background-image: repeating-radial-gradient(black, rgb(0, 30, 30), black);
+    }
+}

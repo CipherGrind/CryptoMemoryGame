@@ -1,0 +1,41 @@
+.gameOver {
+    width: 250px;
+    height: 300px;
+    background-color: black;
+    color: white;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 10px;
+    top: 20%;
+    position: absolute;
+    border-color: aliceblue;
+    border-width: 10px;
+    border-style: solid;
+    display: none;
+}
+
+.attempts {
+    color: rgb(0, 255, 170);
+    font-size: 20px;
+}
+
+.attemptsHeader {
+    color: rgb(0, 255, 170);
+    text-decoration: underline;
+}
+
+.restartButton {
+    width: 120px;
+    height: 50px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.restartButton:hover {
+    background-color: rgb(0, 255, 170);
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
