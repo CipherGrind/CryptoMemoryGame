@@ -48,7 +48,7 @@ body {
   width: 100px;
   position: absolute;
   backface-visibility: hidden;
-  background: #a3dfe2 url('/memoryGame/img/QuestionMark.png') no-repeat center center / contain;
+  background: #a3dfe2 url('/CryptoMemoryGame/img/QuestionMark.png') no-repeat center center / contain;
 }
 
 .back {
